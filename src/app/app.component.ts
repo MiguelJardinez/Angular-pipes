@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
-  nombre: string = 'Capitan America';
 
+  nombre = 'Capitan America';
+
+  arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 }
